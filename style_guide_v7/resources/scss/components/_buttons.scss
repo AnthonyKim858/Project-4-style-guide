@@ -1,0 +1,58 @@
+/* ============================================= */
+/*              Buttons                          */
+/* ============================================= */
+
+.btn {
+    @include button;
+    transition: background-color 500ms;
+  }
+
+.default {
+  background-color: $tertiary-brand-color;
+  border-radius: 10px;
+  margin-inline-end: 10px;
+  border: none;
+    &:hover {
+      background-color: $tertiary-brand-light;
+    }
+}
+
+.error {
+  background-color: $error-color;
+  border-radius: 10px;
+  margin-inline-end: 10px;
+  border: none;
+    &:hover {
+      background-color: $error-color-light;
+    }
+}
+
+.info {
+  background-color: $info-color;
+  border-radius: 10px;
+  margin-inline-end: 10px;
+  border: none;
+  &:hover {
+    background-color: $info-color-light;
+  }
+}
+
+.success {
+  background-color: $success-color;
+  border-radius: 10px;
+  margin-inline-end: 10px;
+  border: none;
+  &:hover {
+    background-color: $success-color-light;
+  }
+}
+
+.warning {
+  background-color: $warning-color;
+  border-radius: 10px;
+  margin-inline-end: 10px;
+  border: none;
+    &:hover {
+      background-color: $warning-color-light;
+    }
+}

@@ -1,0 +1,25 @@
+/* ============================================= */
+/*              Navigation                       */
+/* ============================================= */
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  flex-basis: 100%;
+}
+
+.nav-link {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  border-radius: 10px;
+  transition: background-color 0.4s linear;
+}
+
+.nav-link:hover {
+  color: $white;
+  background-color: $primary-brand-color;
+  border-radius: 10px;
+}
