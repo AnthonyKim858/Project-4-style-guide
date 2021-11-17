@@ -1,0 +1,99 @@
+/* ============================================= */
+/*              Grid System                      */
+/* ============================================= */
+
+.row {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.theme.col-12 {
+  background-color: $warning-color-light;
+  border-radius: 10px;
+  margin-inline-end: 5px;
+}
+
+.theme.col-4 {
+  background-color: $tertiary-brand-light;
+  border-radius: 10px;
+  margin-inline-end: 5px;
+  margin-inline-start: 0;
+  margin-top: 10px;
+}
+
+.theme.col-3 {
+  background-color: #54df8f;
+  border-radius: 10px;
+  margin-inline-end: 5px;
+  margin-inline-start: 0;
+}
+
+.theme.col-5 {
+  background-color: $success-color-light;
+  border-radius: 10px;
+}
+
+.theme.col-6 {
+  background-color: #f0db56;
+  border-radius: 10px;
+  margin-inline-end: 5px;
+  margin-inline-start: 0;
+}
+
+.theme.col-7 {
+  background-color: $error-color-light;
+  border-radius: 10px;
+}
+
+.theme.col-8 {
+  background-color: $error-color-light;
+  border-radius: 10px;
+  display: flex;
+  flex-basis: 600%;
+  margin-top: 10px;
+}
+
+.col-3 {
+  margin-top: 10px;
+  padding: 10px;
+  }
+
+.col-4 {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.col-5 {
+  margin-top: 10px;
+  padding: 10px;
+  margin-inline-end: 5px;
+}
+
+.col-6 {
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.col-7 {
+  margin-top: 10px;
+  padding: 10px;
+  margin-inline-end: 5px;
+}
+
+.col-8 {
+  margin-inline-end: 5px;
+  padding: 10px;
+}
+
+.col-9 {
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.col-12 {
+  margin-top: 10px;
+  padding: 10px;
+
+}
